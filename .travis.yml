@@ -1,0 +1,8 @@
+dist: xenial
+language: java
+sudo: false
+jdk: 11.0.12.7.1-amzn
+install: true
+cache:
+  directories:
+    - $HOME/.m2
